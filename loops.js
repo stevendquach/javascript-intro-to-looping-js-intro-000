@@ -17,13 +17,8 @@ function whileLoop(number) {
 }
 
 
-function doWhileLoop (i){
-  for ( let i = i + 1; i> 25; i--) {
-    if i = i + 1;
-  }
-  return i;
-  }
+function doWhileLoop(num) {
+  var i = 1;
   do{
-    console.console.log("I run once regardless.");
-    while (incrementVariable() < num) ;
-  }
+    console.log("I run once regardless.");
+  }while(i++ < num);
